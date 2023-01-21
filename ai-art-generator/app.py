@@ -6,7 +6,8 @@ import urllib.request as rq
 
 # openai.api_key=config.api
 openai.api_key=st.secrets['api']
-st.title("Image Generator Using AI")
+st.title("AI Image Generator")
+st.text("convert text to images")
 promt=st.text_input("Give a detailed description")
 
 if promt:
